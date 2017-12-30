@@ -1,0 +1,93 @@
+body{
+	background: #3d4144;
+	min-width: 600px;
+
+}
+#header{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	background-color: #73add6;
+	padding: 1%;
+}
+
+#title{
+	font-weight: 600;
+	font-size: 48px;
+	padding: 0px, 0px;
+	text-transform: uppercase;
+}
+
+#settings{
+	color: #73add6;
+	width: 100%;
+	background-color: white;
+	font-weight: 600;	
+	/*max-width: 800px;*/
+}
+
+#reset{
+	text-align: left;
+	border: 1px solid pink;
+	
+}
+
+#comments{
+	text-align: center;
+	border: 1px solid pink;
+	font-weight:normal;
+	color: black;
+	
+}
+
+#mode{
+	text-align: right;
+	border: 1px solid pink;
+	
+}
+
+#tiles{
+	/*margin-top: 15px;*/
+	margin: 0 auto;
+
+}
+
+#easy{
+	margin: auto;
+}
+
+.container {
+	min-width: 500px;
+	max-width: 800px;
+	width: 50%;
+	margin: 0 auto;
+	line-height: 1em;
+	font-size: 1.25em;
+
+
+}
+.row{
+	justify-content: center;
+}
+.thumbnails{
+	width: 140px;
+	height: 120px;
+	max-width: 140px;
+	border-radius: 25px 25px 25px 25px;
+	-moz-border-radius: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border: 2px solid white;
+	margin: 5px 5px 5px 5px;
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 1s;
+	
+}
+
+.currentMode {
+	color: white;
+	background: #73add6;
+}
+
+
