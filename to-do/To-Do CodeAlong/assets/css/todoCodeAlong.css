@@ -1,0 +1,88 @@
+body {
+  background-color: #ff6e7f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff6e7f, #bfe9ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6e7f, #bfe9ff); 
+}
+#container {
+	margin: 100px auto;
+	width: 360px;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+	font-family: 'Roboto', sans-serif;
+}
+
+.done {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.fa-plus {
+	float: right;
+}
+
+h1 {
+	background-color: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	background-color: white;
+	line-height: 40px;
+	height: 40px;
+}
+
+li:nth-of-type(2n){
+	background-color: #f7f7f7;
+}
+
+input[type='text'] {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 13px 13px 13px 20px;
+	color: #2980b9;
+	outline: none; 
+	border:0;
+
+	transition: .2s linear;
+}
+
+.fa-trash {
+	width: 0px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	text-align: center;
+	opacity: 0;
+
+
+	transition-property: width, opacity;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+
+}
+
+li:hover .fa-trash {
+	width: 40px;
+	opacity: 1;
+}
+
+input:focus {
+	background-color: white;
+	border: 2px solid rgba(41, 128, 185, 1);
+}
